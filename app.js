@@ -105,7 +105,7 @@ function applyImage(index) {
     }
   });
 
-  sectionMainImg.src = `/images/image-product-${index + 1}.jpg`;
+  sectionMainImg.src = `./images/image-product-${index + 1}.jpg`;
 }
 
 // TO INCREMENT THE NUMBER FROM PLUS BUTTON
@@ -144,12 +144,12 @@ backdrop.addEventListener("click", () => {
 
 // UPDATE PHOTO IN THE POPUP SECTION
 function updatePhotoOnMove(index) {
-  sliderMainImg.src = ` /images/image-product-${index + 1}.jpg`;
+  sliderMainImg.src = ` ./images/image-product-${index + 1}.jpg`;
 }
 
 //UPDATE PHOTO IN THE MAIN SECTION
 function updateMainPhotoOnMove(index) {
-  sectionMainImg.src = ` /images/image-product-${index + 1}.jpg`;
+  sectionMainImg.src = ` ./images/image-product-${index + 1}.jpg`;
 }
 
 // FUNCTIONS FOR THE POPUP SECTION IMAGE
